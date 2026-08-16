@@ -1,0 +1,19 @@
+Paços para o treinamento
+
+
+1) Ligar o tomcat : 
+C:\Users\dell\Documents\CICD_TREINAMENTO\dev\apache-tomcat-8.5.50\bin
+Execute no cmd:startup.bat
+
+
+2) Loganfo no tomcat: 
+http://localhost:8001/manager/html
+User admin
+Senha admin
+
+Acesse manager app
+
+
+3) ligando o jenkins 
+C:\Users\dell\Documents\CICD_TREINAMENTO\dev
+Execute o startjenkins.bat
