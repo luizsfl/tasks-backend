@@ -26,7 +26,7 @@ pipeline {
                             bat "${scannerHome}\\bin\\sonar-scanner.bat -Dsonar.projectKey=meu-projeto -Dsonar.sources=."
                         }
                     }
-                        bat "${scannerHome}/bin/sonar-scanner -e -Dsonar.projectKey=deployback -Dsonar.host.url=http://localhost:9000 -Dsonar.login=849e9cadd301bd28751e2fe723a2e145851c01bb -Dsonar.java.binaries=target"
+                        bat "${scannerHome}/bin/sonar-scanner -e -Dsonar.projectKey=deployback -Dsonar.host.url=http://localhost:9000 -Dsonar.login=849e9cadd301bd28751e2fe723a2e145851c01bb -Dsonar.java.binaries=target/classes"
                     }
             }
         }
