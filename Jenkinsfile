@@ -3,7 +3,7 @@ pipeline {
     stapes {
         stage('just test'){
             steps {
-                bat'echo deu certo
+                bat'echo deu certo'
             }
         }
     }
